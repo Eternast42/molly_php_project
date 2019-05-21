@@ -1,0 +1,182 @@
+.molly {
+width: 100%;
+}
+.navBar {
+  border-bottom: 1px solid black;
+  height: 8%;
+  position: sticky;
+  top: 0%;
+  background: #fff;
+  z-index: 999999;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navBar h2 {
+  cursor: pointer;
+}
+.navBar h2:hover {
+  transform: scale(1.2);
+  transition: 0.2s transform;
+}
+
+#logo {
+  width: 183px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.slider_img {
+  background-position: center;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#img01 {
+  width: 100%;
+}
+#img02 {
+  width: 100%;
+}
+#img03 {
+  width: 100%;
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+.prevnext {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  color: #fff;
+  margin: 0 auto;
+  display: flex;
+}
+
+#next {
+  color: black;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background-color: transparent;
+  font-size: 70px;
+  cursor: pointer;
+  text-align: flex-start;
+}
+
+#prev {
+  color: black;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background-color: transparent;
+  font-size: 70px;
+  cursor: pointer;
+  text-align: flex-end;
+}
+
+#prev:focus,
+#next:focus {
+  outline: none;
+}
+
+#prev:hover:after,
+#next:hover:after {
+  opacity: 1;
+}
+
+
+#prev:after {
+  content: "<";
+  font-size: 85px;
+}
+
+#next:after {
+  content: ">";
+  font-size: 85px;
+}
+
+#prev:after,
+#next:after {
+  opacity: 0.2;
+  transition: opacity 0.3s ease;
+}
+
+.slide {
+  position: relative;
+  height: 611px;
+  width: 100%;
+  margin: 0 auto;
+  background: black;
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
+
+.produit {
+  margin-bottom: 4%;
+  margin-top: 2%;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.produit a {
+  width: 25%;
+}
+.produit1 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.produit2 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sneakers {
+  height: 70%;
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+
+.nameOnglet {
+  width: 100%;
+  background: black;
+  height: 45px;
+  color: white;
+  text-align: center;
+  font-size: 21px;
+}
+
+.markSlider {
+  border: 1px solid black;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  height: 100px;
+}
+
+.molly_footer {
+  margin-bottom: 4%;
+  margin-top: 4%;
+  height: 175px
+}
