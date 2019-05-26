@@ -107,20 +107,27 @@
   }
   #left_img01 {
     border: 1px solid black;
+    width: 165px;
+    height: 105px;
   }
   
   #left_img02 {
     border: 1px solid black;
+    width: 165px;
+    height: 105px;
   }
   
   #left_img03 {
     border: 1px solid black;
+    width: 165px;
+    height: 105px;
   }
 
   .detail {
     width: 620px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: start;
     height: 92vh;
   }

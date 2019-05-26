@@ -13,7 +13,7 @@
 <body>
   <section class="molly">
     <header class="navBar">
-      <a href="#"><img src="./images/logo_molly" alt="logo" id="logo"></a>
+      <a href="index.php"><img src="./images/logo_molly" alt="logo" id="logo"></a>
       <h2>HOMMES</h2>
       <h2>FEMMES</h2>
       <h2>ENFANTS</h2>
@@ -21,9 +21,9 @@
     </header>
     <section class="detail_produit">
       <nav class="left_slide">
-        <img  id="left_img01" src="./images/component_1.png">
-        <img  id="left_img02" src="./images/component_2.png">
-        <img  id="left_img03" src="./images/component_3.png">
+        <img  id="left_img01" src="./images/secondimg.png">
+        <img  id="left_img02" src="./images/thirdimg.png">
+        <img  id="left_img03" src="./images/lastimg.png">
       </nav>
       <section class="slide">
         <img class="slider_img" id="infoimg01" src="./images/firstimg.png">
@@ -44,7 +44,47 @@
           <img src="" alt="blanc">
           <img src="" alt="marron">
         </div>
+        <p>Taille :</p>
+          <div class="dropdown">
+          <button class="dropbtn">Dropdown</button>
+          <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+  </div>
+  <p>Quantité :</p>
+  <textarea>1</textarea>
+  <div class="updown">
+          <button id="up"></button>
+          <button id="down"></button>
+        </div>
+ </div>
+ <div>
+   <h4>Conditions de retour</h4>
+   <p>Livraison et retour gratuit<br><br>Livraison standard 3 à 5 jours ouvré</p>
+ </div>
       </section>
+    </section>
+    <section class="descriptif">
+     <div>
+       <h2></h2>
+       <p></p>
+       <p></p>
+       <p></p>
+       <p></p>
+       <p></p>
+     </div>
+     <div>
+      <h2></h2>
+      <p></p>
+      <h2></h2>
+      <p></p>
+    </div>
+     <div>
+       <h2></h2>
+       <p></p>
+       <p></p>
+     </div>
     </section>
     <footer class="molly_footer">
       <div></div>
