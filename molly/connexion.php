@@ -1,5 +1,5 @@
 <?php  
-// /mnt/c/wamp64/www/courPHP/molly_php_project/molly$ //
+// /mnt/c/wamp64/www/courPHP/molly_php_project/molly$ 
 // on teste si le visiteur a soumis le formulaire de connexion
 if (isset($_POST['connexion']) && $_POST['connexion'] == 'Connexion') {
 	if ((isset($_POST['login']) && !empty($_POST['login'])) && (isset($_POST['pass']) && !empty($_POST['pass']))) {
@@ -29,8 +29,7 @@ if (isset($_POST['connexion']) && $_POST['connexion'] == 'Connexion') {
 	// sinon, alors la, il y a un gros problème :)
 	else {
 		$erreur = 'Probème dans la base de données.';
-	}
-}
+	}}}
 
 ?>
 
@@ -40,13 +39,12 @@ if (isset($_POST['connexion']) && $_POST['connexion'] == 'Connexion') {
 </head>
 
 <body>
-Connexion à l'espace membre :<br />
+admin :<br />
 <form action="connexion.php" method="post">
 Login : <input type="text" name="login" value="<?php if (isset($_POST['login'])) echo htmlentities(trim($_POST['login'])); ?>"><br />
 Mot de passe : <input type="password" name="pass" value="<?php if (isset($_POST['pass'])) echo htmlentities(trim($_POST['pass'])); ?>"><br />
 <input type="submit" name="connexion" value="Connexion">
 </form>
-<a href="inscription.php">Vous inscrire</a>
 <?php
 if (isset($erreur)) echo '<br /><br />',$erreur;
 ?>

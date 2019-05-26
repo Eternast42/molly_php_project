@@ -12,7 +12,7 @@
 <body>
   <section class="molly">
    <header class="navBar">
-  <a href="#"><img src="./images/logo_molly" alt="logo" id="logo"></a>
+  <a href="connexion.php"><img src="./images/logo_molly" alt="logo" id="logo"></a>
 <h2>HOMMES</h2>
 <h2>FEMMES</h2>
 <h2>ENFANTS</h2>
