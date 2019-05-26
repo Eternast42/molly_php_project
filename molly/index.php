@@ -68,9 +68,3 @@
   </section>
 </body>
 </html>
-
-<?php
-
-	
-
- ?>
